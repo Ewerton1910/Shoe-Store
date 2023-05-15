@@ -67,6 +67,10 @@ section h2 {
   object-fit: cover;
 }
 
+#produtos {
+  margin-bottom: 50px;
+}
+
 #produtos > div > h2 {
   border-bottom: 3px solid blueviolet;
   padding: 32px 0 16px;
@@ -116,6 +120,12 @@ button {
 
 button:hover {
   background-color: #4e80d0;
+}
+
+footer {
+  background-color: blueviolet;
+  color: #ecf0f1;
+  padding: 16px 0;
 }
 
 
@@ -190,8 +200,8 @@ button:hover {
   .produto {
     padding-top: 32px;
     display: grid;
-    grid-template-columns: repeat(3, 24.25%);
-    column-gap: 8%;
+    grid-template-columns: repeat(2, 49.5%);
+    column-gap: 1%;
   }
 
 }
